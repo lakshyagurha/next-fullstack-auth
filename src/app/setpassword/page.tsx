@@ -3,7 +3,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [token, setToken] = useState("");
   const [error, setError] = useState(false);
   const [status, setStatus] = useState("");
@@ -116,4 +116,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
