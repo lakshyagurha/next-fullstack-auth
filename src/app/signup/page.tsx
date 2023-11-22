@@ -91,6 +91,13 @@ const page = () => {
             Signup
           </button>
         )}
+ 
+        <Link
+          href="/forgotpassword"
+          className="mt-4 text-lg underline text-gray-500 hover:text-white"
+        >
+          Forget Password
+        </Link>
         <Link
           href="/login"
           className="mt-4 text-lg underline text-gray-500 hover:text-white"
